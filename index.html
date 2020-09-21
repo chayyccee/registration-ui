@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Portal</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+    <!-- CSS here -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="testbox">
+            <h1>Registration</h1>
+
+            <form action="/">
+                <hr>
+                <div class="accounttype">
+                    <input type="radio" value="None" id="radioOne" name="account" />
+                    <label for="radioOne" class="radio" chec>Student</label>
+                    <input type="radio" value="None" id="radioTwo" name="account" checked/>
+                    <label for="radioTwo" class="radio">Staff</label>
+                </div>
+                <hr>
+                <label id="icon" for="name"><i class="icon-envelope "></i></label>
+                <input type="text" name="name" id="name" placeholder="E-mail" required/>
+                <label id="icon" for="name"><i class="icon-user"></i></label>
+                <input type="text" name="name" id="name" placeholder="Full Name" required/>
+                <label id="icon" for="name"><i class="icon-shield"></i></label>
+                <input type="password" name="name" id="name" placeholder="Enter Password" required/>
+                <label id="icon" for="name"><i class="icon-shield"></i></label>
+                <input type="password" name="name" id="name" placeholder="Enter Password" required/>
+                <div class="gender">
+                    <input type="radio" value="None" id="male" name="gender" />
+                    <label for="male" class="radio" chec>Male</label>
+                    <input type="radio" value="None" id="female" name="gender" checked/>
+                    <label for="female" class="radio">Female</label>
+                </div>
+                <p>By clicking Register, you agree on our <a href="#">terms and condition</a>.</p>
+                <a href="#" class="button">Register</a>
+            </form>
+        </div>
+    </main>
+
+</body>
